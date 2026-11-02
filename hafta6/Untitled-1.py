@@ -1,0 +1,6 @@
+def iki_kat(sayi):
+    sonuc = sayi * 2
+    return sonuc
+
+puan = iki_kat(5)
+print(puan + 10)
