@@ -1,0 +1,17 @@
+envanter = ["bu bir test eşyasıdır"]
+
+while True:
+
+    soru = input("envantere bişey koyacakmısın yoksa harcıyacakmısın? koy = 1 harca = 2 ")
+    if soru == "1":
+        a = str(input("ne eşyası var:"))
+        b = int(input("ne kadar var:"))
+        envanter.append((a + " " + str(b)))
+
+    elif soru == "2":
+        c = str(input("hangi eşyayı harcayacaksın:"))
+        d = int(input("ne kadar harcayacaksın:"))
+
+       
+    print(envanter)
+#elimden geleni yaptım
